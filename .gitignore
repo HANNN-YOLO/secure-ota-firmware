@@ -1,0 +1,9 @@
+# Private Keys
+keys/private_key.pem
+
+# Signature output
+*.sig
+
+# Python cache
+__pycache__/
+*.pyc

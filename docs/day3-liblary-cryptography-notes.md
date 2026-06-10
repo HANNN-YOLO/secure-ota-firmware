@@ -1,0 +1,1 @@
+I used a cryptography library to generate an ECDSA key pair. The private key is stored in private_key.pem, and the public key is stored in public_key.pem. The private key will be used to sign the firmware hash, while the public key will be used to verify the signature.
