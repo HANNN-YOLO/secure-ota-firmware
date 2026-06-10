@@ -1,0 +1,7 @@
+From dumy_firmware.bin so
+
+Firmware Version 1.0
+SHA256: 6f689b8226b62b787cd17f964e2fcb23ae28743b14c1151b3f6614756eb862f2
+
+Firmware Version 1.1
+SHA256: 035654bb56c21d215fadfc8f106ba860f0d1b9b1178f90bf5b97a3677c96705a
