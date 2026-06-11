@@ -8,3 +8,4 @@ June 07, 2026 : Division of tasks
 June 08, 2026 : Day 1 - Fundamental Crytography
 June 09, 2026 : Day 2 - Hashing & SHA256
 June 10, 2026 : Day 3 - Library Cryptography
+JUne 11, 2026 : Day 4 - Simulation Firmware

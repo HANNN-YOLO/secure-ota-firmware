@@ -1,6 +1,6 @@
 import hashlib
 
-with open("firmware/dumy_firmware.bin", "rb") as file:
+with open("firmware/firmware.bin", "rb") as file:
     data = file.read()
 
 sha256_hash = hashlib.sha256(data).hexdigest()
