@@ -9,3 +9,4 @@ June 08, 2026 : Day 1 - Fundamental Crytography
 June 09, 2026 : Day 2 - Hashing & SHA256
 June 10, 2026 : Day 3 - Library Cryptography
 JUne 11, 2026 : Day 4 - Simulation Firmware
+June 12, 2026 : Day 5 - Digital Signing

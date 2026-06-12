@@ -1,0 +1,1 @@
+in this day i wiil to create digital signing us my script sign_firmware.py to private_key.pem and firmware.bin. if im complete i put output in directory Output, i have finishing registering signature.sig in .gitignore
