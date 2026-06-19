@@ -20,7 +20,9 @@ Logistics &amp; IoT Edge - Secure OTA Firmware Update &amp; Code Signing Infrast
 
 ## Week 2 : June 14 - June 21
 
-| Date          | Activity                           | Commit                      |
-| ------------- | ---------------------------------- | --------------------------- |
-| June 08, 2026 | Day 8 - Fundamental Git WorkFlow   | docs: github workflow notes |
-| June 09, 2026 | Day 9 - Fundamental GitHUb Actions | docs: github actions notes  |
+| Date          | Activity                           | Commit                         |
+| ------------- | ---------------------------------- | ------------------------------ |
+| June 08, 2026 | Day 8 - Fundamental Git WorkFlow   | docs: github workflow notes    |
+| June 09, 2026 | Day 9 - Fundamental GitHUb Actions | docs: github actions notes     |
+| June 10, 2026 | Day 10 - Build Github Actions      | feat: add first github action  |
+| June 11, 2026 | Day 11 - Fundamental Github Secret | feat: configure github secrets |
