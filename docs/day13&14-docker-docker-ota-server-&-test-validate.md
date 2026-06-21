@@ -7,3 +7,5 @@ Next, I'll create a requirements.txt to use the Dockerfile, as the Dockerfile wi
 Next, I'll create an OTA server script in server.py. If I use the URL path to /signature.sig, this file will be downloaded, and if I use the URL path /firmware.bin, this file will also be downloaded.
 
 Finally, when I run GitHub actions, for each sign_firmware run, we'll create a Docker image and then register the image on DockerHub.
+
+So, in week 2, I learned about GitHub workflows, GitHub Actions, creating Actions using Python apps, GitHub Secrets, and how to use .yml logic for CI/CD automation. On the final day, I finished building OTA Serve using Docker.
