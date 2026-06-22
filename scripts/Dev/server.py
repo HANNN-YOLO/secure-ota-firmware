@@ -3,7 +3,7 @@ from flask import Flask, send_file
 
 app = Flask(__name__)
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
 SIGNATURE_PATH = BASE_DIR / "output" / "signature.sig"
