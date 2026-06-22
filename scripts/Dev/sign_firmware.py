@@ -50,7 +50,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import ec
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
 PRIVATE_KEY_PATH = BASE_DIR / "keys" / "private_key.pem"
