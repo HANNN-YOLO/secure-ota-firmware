@@ -1,0 +1,6 @@
+2026-06-23 07:26:45,136 - INFO - OTA client started
+2026-06-23 07:26:45,136 - INFO - Starting download firmware.bin
+2026-06-23 07:26:45,229 - INFO - firmware.bin downloaded successfully
+2026-06-23 07:26:45,231 - INFO - Starting download signature.sig
+2026-06-23 07:26:45,318 - INFO - signature.sig downloaded successfully
+2026-06-23 07:26:45,320 - INFO - All download process finished
