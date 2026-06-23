@@ -1,6 +1,7 @@
 from pathlib import Path
 import requests
 from logger import logger
+from verify_hash import verify_hash
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -8,7 +9,7 @@ DOWNLOAD_DIR = BASE_DIR / "downloads"
 DOWNLOAD_DIR.mkdir(exist_ok=True)
 
 # ipv4 for flask dev, client and docker client
-SERVER_URL = "http://localhost:8080"
+SERVER_URL = "http://10.136.176.226:8080"
 
 # localhost for docker dev
 # SERVER_URL = "http://localhost:8080"
@@ -54,14 +55,18 @@ def main():
         "signature.sig",
         "signature.sig"
     )
-    if firmware_ok and signature_ok:
-
+    hash_result_Ok = download_file(
+        "hash_result.md",
+        "hash_result.md",
+    )
+    if firmware_ok and signature_ok and hash_result_Ok:
         logger.info(
             "All files downloaded successfully"
         )
         print(
             "All files downloaded successfully"
         )
+        verify_hash()
     else:
         logger.error(
             "Download process failed"

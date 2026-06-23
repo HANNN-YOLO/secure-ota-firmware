@@ -31,12 +31,12 @@ Logistics &amp; IoT Edge - Secure OTA Firmware Update &amp; Code Signing Infrast
 
 ## Week 3 : June 21 - June 28
 
-| Date          | Activity                                 | Commit                             |
-| ------------- | ---------------------------------------- | ---------------------------------- |
-| June 21, 2026 | Day 15 - Fundamental OTA Server          | docs: ota update notes             |
-| June 22, 2026 | Day 16 - Create requests client          | feat: add firmware download script |
-| June 23, 2026 | Day 17 - Build log for OTA Server Client | feat: add verification logging     |
+| Date          | Activity                                 | Commit                               |
+| ------------- | ---------------------------------------- | ------------------------------------ |
+| June 21, 2026 | Day 15 - Fundamental OTA Server          | docs: ota update notes               |
+| June 22, 2026 | Day 16 - Create requests client          | feat: add firmware download script   |
+| June 23, 2026 | Day 17 - Build log for OTA Server Client | feat: add verification logging       |
+| June 24, 2026 | Day 18 - build verify hash for client    | feat: add firmware hash verification |
 
-<!-- | June 17, 2026 | Day 11 - Fundamental Github Secret       | feat: configure github secrets   |
-| June 18, 2026 | Day 12 - Integration with python-app.yml | feat: automate firmware signing  |
+<!-- | June 18, 2026 | Day 12 - Integration with python-app.yml | feat: automate firmware signing  |
 | June 19, 2026 | Day 13 & Day 14 - Use Docker OTA Server  | test: validate automated signing | -->

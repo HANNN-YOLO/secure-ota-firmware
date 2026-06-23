@@ -7,6 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
 SIGNATURE_PATH = BASE_DIR / "output" / "signature.sig"
+HASH_PATH = BASE_DIR / "output" / "hash_result.md"
 
 
 @app.route("/firmware.bin")
@@ -21,6 +22,13 @@ def download_firmware():
 def download_signature():
     return send_file(
         SIGNATURE_PATH,
+        as_attachment=True
+    )
+
+@app.route("/hash_result.md")
+def download_hash_result():
+    return send_file(
+        HASH_PATH,
         as_attachment=True
     )
 
