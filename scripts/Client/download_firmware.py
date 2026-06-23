@@ -2,6 +2,7 @@ from pathlib import Path
 import requests
 from logger import logger
 from verify_hash import verify_hash
+from verify_signature import verify_signature
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -67,6 +68,7 @@ def main():
             "All files downloaded successfully"
         )
         verify_hash()
+        verify_signature()
     else:
         logger.error(
             "Download process failed"
