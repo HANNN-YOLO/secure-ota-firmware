@@ -46,8 +46,9 @@ Logistics &amp; IoT Edge - Secure OTA Firmware Update &amp; Code Signing Infrast
 | ------------- | ---------------------------------------- | ------------------------------- |
 | June 28, 2026 | Day 22 - Fundamental Semantic Versioning | docs: semantic versioning notes |
 | June 29, 2026 | Day 23 - Firmware Versioning             | feat: add firmware versioning   |
+| June 30, 2026 | Day 24 - Fundamental Anti Rollback       | docs: anti rollback research    |
 
-<!-- | June 23, 2026 | Day 17 - Build log for OTA Server Client   | feat: add verification logging                               |
+<!--
 | June 24, 2026 | Day 18 - build verify hash for client      | feat: add firmware hash verification                         |
 | June 25, 2026 | Day 19 - build verify signature for client | feat: add signature verification                             |
 | June 26, 2026 | Day 20 & Day 21 - Testing Scenario Client  | test: add verification scenarios and Documentation in week 3 | -->
