@@ -60,7 +60,7 @@ from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.exceptions import InvalidSignature
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
 PUBLIC_KEY_PATH = BASE_DIR / "keys" / "public_key.pem"
