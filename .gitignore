@@ -1,5 +1,7 @@
 # Private Keys
 keys/private_key.pem
+keys/key_pair_1/private_key
+keys/key_pair_2/private_key
 
 # Signature output
 *.sig
