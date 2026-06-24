@@ -1,0 +1,21 @@
+2026-06-24 07:02:55,301 - INFO - OTA client started
+2026-06-24 07:02:55,301 - INFO - Starting download firmware.bin
+2026-06-24 07:03:05,336 - INFO - firmware.bin downloaded successfully
+2026-06-24 07:03:05,338 - INFO - Starting download signature.sig
+2026-06-24 07:03:15,365 - INFO - signature.sig downloaded successfully
+2026-06-24 07:03:15,365 - INFO - Starting download hash_result.md
+2026-06-24 07:03:25,395 - INFO - hash_result.md downloaded successfully
+2026-06-24 07:03:25,397 - INFO - All files downloaded successfully
+2026-06-24 07:03:25,398 - INFO - Hash verification started
+2026-06-24 07:03:25,405 - INFO - Local Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:03:25,405 - INFO - Server Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:03:25,405 - INFO - Hash verification successful
+2026-06-24 07:03:25,406 - INFO - Verify Signature Started
+2026-06-24 07:03:25,406 - INFO - Firmware Path : D:\BootCamp\Cyber Security - Infotact Solutions\2. Process\3. Project\secure-ota-firmware\scripts\Client\downloads\firmware.bin
+2026-06-24 07:03:25,406 - INFO - Signature Path : D:\BootCamp\Cyber Security - Infotact Solutions\2. Process\3. Project\secure-ota-firmware\scripts\Client\downloads\signature.sig
+2026-06-24 07:03:25,406 - INFO - Public Key Path : D:\BootCamp\Cyber Security - Infotact Solutions\2. Process\3. Project\secure-ota-firmware\keys\public_key.pem
+2026-06-24 07:03:25,410 - INFO - Firmware Size : 24 bytes
+2026-06-24 07:03:25,410 - INFO - Signature Size : 71 bytes
+2026-06-24 07:03:25,411 - INFO - Public Key Loaded Successfully
+2026-06-24 07:03:25,411 - INFO - Verifying Signature Against Firmware
+2026-06-24 07:03:25,431 - INFO - Digital Signature Successful

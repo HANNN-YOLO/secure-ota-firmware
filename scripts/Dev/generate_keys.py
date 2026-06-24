@@ -3,9 +3,11 @@ from cryptography.hazmat.primitives import serialization
 
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 KEYS_DIR = BASE_DIR / "keys"
+
+PRIVATE_KEY_PATH = KEYS_DIR / "private_key.pem"
+PUBLIC_KEY_PATH = KEYS_DIR / "public_key.pem"
 
 
 # Generate ECDSA Private Key
@@ -20,14 +22,7 @@ private_bytes = private_key.private_bytes(
     encryption_algorithm=serialization.NoEncryption()
 )
 
-private_key_path = KEYS_DIR / "private_key.pem"
-
-# Save Private Key
-
-# with open("../keys/private_key.pem", "wb") as f:
-#     f.write(private_bytes)
-
-with open("private_key.pem", "wb") as f:
+with open(PRIVATE_KEY_PATH, "wb") as f:
     f.write(private_bytes)
 
 # Generate Public Key from Private Key
@@ -39,14 +34,7 @@ public_bytes = public_key.public_bytes(
     format=serialization.PublicFormat.SubjectPublicKeyInfo
 )
 
-public_key_path = KEYS_DIR / "public_key.pem"
-
-# Save Public Key
-
-# with open("../keys/public_key.pem", "wb") as f:
-#     f.write(public_bytes)
-
-with open("public_key.pem", "wb") as f:
+with open(PUBLIC_KEY_PATH, "wb") as f:
     f.write(public_bytes)
 
 print("Private Key saved successfully!")

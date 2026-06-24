@@ -10,10 +10,10 @@ DOWNLOAD_DIR = BASE_DIR / "downloads"
 DOWNLOAD_DIR.mkdir(exist_ok=True)
 
 # ipv4 for flask dev, client and docker client
-SERVER_URL = "http://10.136.176.226:8080"
+# SERVER_URL = "http://10.136.176.226:8080"
 
 # localhost for docker dev
-# SERVER_URL = "http://localhost:8080"
+SERVER_URL = "http://localhost:8080"
 
 def download_file(endpoint, filename):
     url = f"{SERVER_URL}/{endpoint}"

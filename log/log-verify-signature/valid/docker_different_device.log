@@ -1,0 +1,42 @@
+2026-06-24 07:36:56,795 - INFO - OTA client started
+2026-06-24 07:36:56,796 - INFO - Starting download firmware.bin
+2026-06-24 07:36:56,829 - INFO - firmware.bin downloaded successfully
+2026-06-24 07:36:56,830 - INFO - Starting download signature.sig
+2026-06-24 07:36:56,853 - INFO - signature.sig downloaded successfully
+2026-06-24 07:36:56,854 - INFO - Starting download hash_result.md
+2026-06-24 07:36:56,889 - INFO - hash_result.md downloaded successfully
+2026-06-24 07:36:56,890 - INFO - All files downloaded successfully
+2026-06-24 07:36:56,891 - INFO - Hash verification started
+2026-06-24 07:36:56,897 - INFO - Local Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:36:56,898 - INFO - Server Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:36:56,898 - INFO - Hash verification successful
+2026-06-24 07:36:56,898 - INFO - Verify Signature Started
+2026-06-24 07:36:56,898 - INFO - Firmware Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/firmware.bin
+2026-06-24 07:36:56,899 - INFO - Signature Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/signature.sig
+2026-06-24 07:36:56,899 - INFO - Public Key Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/public_key.pem
+2026-06-24 07:36:56,904 - INFO - Firmware Size : 24 bytes
+2026-06-24 07:36:56,904 - INFO - Signature Size : 70 bytes
+2026-06-24 07:36:56,915 - INFO - Public Key Loaded Successfully
+2026-06-24 07:36:56,916 - INFO - Verifying Signature Against Firmware
+2026-06-24 07:36:56,953 - INFO - Digital Signature Successful
+2026-06-24 07:47:39,961 - INFO - OTA client started
+2026-06-24 07:47:39,963 - INFO - Starting download firmware.bin
+2026-06-24 07:47:40,220 - INFO - firmware.bin downloaded successfully
+2026-06-24 07:47:40,221 - INFO - Starting download signature.sig
+2026-06-24 07:47:40,259 - INFO - signature.sig downloaded successfully
+2026-06-24 07:47:40,260 - INFO - Starting download hash_result.md
+2026-06-24 07:47:40,299 - INFO - hash_result.md downloaded successfully
+2026-06-24 07:47:40,300 - INFO - All files downloaded successfully
+2026-06-24 07:47:40,301 - INFO - Hash verification started
+2026-06-24 07:47:40,306 - INFO - Local Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:47:40,306 - INFO - Server Hash : 50206b78bae43614111c2cb78b8df42904e96f8d3acce4dc5cc88105fb61e237
+2026-06-24 07:47:40,306 - INFO - Hash verification successful
+2026-06-24 07:47:40,306 - INFO - Verify Signature Started
+2026-06-24 07:47:40,307 - INFO - Firmware Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/firmware.bin
+2026-06-24 07:47:40,307 - INFO - Signature Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/signature.sig
+2026-06-24 07:47:40,307 - INFO - Public Key Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/public_key.pem
+2026-06-24 07:47:40,311 - INFO - Firmware Size : 24 bytes
+2026-06-24 07:47:40,311 - INFO - Signature Size : 71 bytes
+2026-06-24 07:47:40,320 - INFO - Public Key Loaded Successfully
+2026-06-24 07:47:40,321 - INFO - Verifying Signature Against Firmware
+2026-06-24 07:47:40,354 - INFO - Digital Signature Successful
