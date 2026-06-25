@@ -48,6 +48,8 @@ Logistics &amp; IoT Edge - Secure OTA Firmware Update &amp; Code Signing Infrast
 | June 29, 2026 | Day 23 - Firmware Versioning             | feat: add firmware versioning       |
 | June 30, 2026 | Day 24 - Fundamental Anti Rollback       | docs: anti rollback research        |
 | July 01, 2026 | Day 25 - build logic Anti Rollback       | feat: implement rollback protection |
+| July 02, 2026 | Day 26 - Threate Model Notes             | docs: add threat model              |
 
-| June 25, 2026 | Day 19 - build verify signature for client | feat: add signature verification |
-| June 26, 2026 | Day 20 & Day 21 - Testing Scenario Client | test: add verification scenarios and Documentation in week 3 |
+<!-- | June 26, 2026 | Day 20 & Day 21 - Testing Scenario Client | test: add verification scenarios and Documentation in week 3 | -->
+
+<!-- add threat model -->
