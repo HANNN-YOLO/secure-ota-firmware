@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DOWNLOAD_DIR = BASE_DIR / "downloads"
 
 FIRMWARE_PATH = DOWNLOAD_DIR / "firmware.bin"
-HASH_PATH = DOWNLOAD_DIR / "hash_result.md"
+HASH_PATH = DOWNLOAD_DIR / "firmware_hash.md"
 
 def calculate_sha256(file_path):
     sha256 = hashlib.sha256()

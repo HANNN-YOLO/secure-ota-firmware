@@ -1,0 +1,36 @@
+2026-06-25 09:39:06,401 - INFO - OTA Client Started
+2026-06-25 09:39:06,402 - INFO - Downloading version.json
+2026-06-25 09:39:41,452 - INFO - OTA Client Started
+2026-06-25 09:39:41,454 - INFO - Downloading version.json
+2026-06-25 09:39:41,566 - INFO - version.json downloaded successfully
+2026-06-25 09:39:41,567 - INFO - Downloading version.sig
+2026-06-25 09:39:41,610 - INFO - version.sig downloaded successfully
+2026-06-25 09:39:41,610 - INFO - Verifying Version Signature
+2026-06-25 09:39:41,670 - INFO - Version Signature VALID
+2026-06-25 09:39:41,670 - INFO - Performing Anti Rollback Check
+2026-06-25 09:39:41,675 - INFO - Current Version : 0.15.6
+2026-06-25 09:39:41,675 - INFO - Incoming Version : 0.15.7
+2026-06-25 09:39:41,676 - INFO - Anti Rollback Check PASSED
+2026-06-25 09:39:41,676 - INFO - Version Validation Passed
+2026-06-25 09:39:41,676 - INFO - Downloading firmware.bin
+2026-06-25 09:39:41,697 - INFO - firmware.bin downloaded successfully
+2026-06-25 09:39:41,697 - INFO - Downloading firmware_hash.md
+2026-06-25 09:39:41,717 - INFO - firmware_hash.md downloaded successfully
+2026-06-25 09:39:41,717 - INFO - Downloading firmware.sig
+2026-06-25 09:39:41,737 - INFO - firmware.sig downloaded successfully
+2026-06-25 09:39:41,738 - INFO - Hash verification started
+2026-06-25 09:39:41,743 - INFO - Local Hash : 7ddbe2ae40f2490e44a1e437ecf2e9ca8e0644eade77cc562b8983a49065c781
+2026-06-25 09:39:41,744 - INFO - Server Hash : 7ddbe2ae40f2490e44a1e437ecf2e9ca8e0644eade77cc562b8983a49065c781
+2026-06-25 09:39:41,744 - INFO - Hash verification successful
+2026-06-25 09:39:41,744 - INFO - Verify Signature Started
+2026-06-25 09:39:41,745 - INFO - Firmware Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/firmware.bin
+2026-06-25 09:39:41,745 - INFO - Signature Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/downloads/firmware.sig
+2026-06-25 09:39:41,745 - INFO - Public Key Path : /storage/emulated/0/Projek/Python/Client OTA Server (Cybersecurity)/public_key.pem
+2026-06-25 09:39:41,748 - INFO - Firmware Size : 20 bytes
+2026-06-25 09:39:41,748 - INFO - Signature Size : 71 bytes
+2026-06-25 09:39:41,750 - INFO - Public Key Loaded Successfully
+2026-06-25 09:39:41,750 - INFO - Verifying Signature Against Firmware
+2026-06-25 09:39:41,753 - INFO - Digital Signature Successful
+2026-06-25 09:39:41,753 - INFO - Firmware Verification Passed
+2026-06-25 09:39:41,761 - INFO - Installed Version Updated -> 0.15.7
+2026-06-25 09:39:41,761 - INFO - Firmware Ready To Install

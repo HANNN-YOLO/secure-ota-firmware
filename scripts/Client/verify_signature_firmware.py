@@ -72,23 +72,24 @@ BASE_DIR = Path(__file__).resolve().parent
 DOWNLOAD_DIR = BASE_DIR / "downloads"
 
 FIRMWARE_PATH = DOWNLOAD_DIR / "firmware.bin"
-SIGNATURE_PATH = DOWNLOAD_DIR / "signature.sig"
+SIGNATURE_PATH = DOWNLOAD_DIR / "firmware.sig"
 
 # for dev
-# PUBLIC_KEY_PATH = (
-#     BASE_DIR.parent.parent
-#     / "keys"
-#     / "public_key.pem"
-# )
-
-# # for client
 PUBLIC_KEY_PATH = (
     BASE_DIR.parent.parent
     / "keys"
     / "public_key.pem"
 )
 
-def verify_signature():
+# for client
+# PUBLIC_KEY_PATH = (
+#     BASE_DIR.parent.parent
+#     /"Python"
+#     /"Client OTA Server (Cybersecurity)"
+#     / "public_key.pem"
+# )
+
+def verify_signature_firmware():
     logger.info(
         "Verify Signature Started"
     )

@@ -52,20 +52,20 @@ from cryptography.hazmat.primitives.asymmetric import ec
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
+VERSION_PATH = BASE_DIR / "firmware" / "version.json"
 PRIVATE_KEY_PATH = BASE_DIR / "keys" / "private_key.pem"
-SIGNATURE_PATH = BASE_DIR / "output" / "firmware.sig"
+SIGNATURE_PATH = BASE_DIR / "output" / "version.sig"
 
 
 # STEP 1 - Read firmware file
-with open(FIRMWARE_PATH, "rb") as file:
-    firmware_data = file.read()
+with open(VERSION_PATH, "rb") as file:
+    version_data = file.read()
 
 
 # STEP 2 - Calculate SHA256 hash
-firmware_hash = hashlib.sha256(firmware_data).digest()
+version_hash = hashlib.sha256(version_data).digest()
 
-print("Firmware Hash Generated Successfully")
+print("Version Hash Generated Successfully")
 
 
 # STEP 3 - Load private key
@@ -80,7 +80,7 @@ print("Private Key Loaded Successfully")
 
 # STEP 4 - Sign hash using ECDSA
 signature = private_key.sign(
-    firmware_hash,
+    version_hash,
     ec.ECDSA(hashes.SHA256())
 )
 
@@ -93,4 +93,4 @@ SIGNATURE_PATH.parent.mkdir(exist_ok=True)
 with open(SIGNATURE_PATH, "wb") as sig_file:
     sig_file.write(signature)
 
-print("Signature saved to output/firmware.sig")
+print("Signature saved to output/version.sig")

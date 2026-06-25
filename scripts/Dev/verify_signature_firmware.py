@@ -64,7 +64,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 FIRMWARE_PATH = BASE_DIR / "firmware" / "firmware.bin"
 PUBLIC_KEY_PATH = BASE_DIR / "keys" / "public_key.pem"
-SIGNATURE_PATH = BASE_DIR / "output" / "signature.sig"
+SIGNATURE_PATH = BASE_DIR / "output" / "firmware.sig"
 
 
 # STEP 1 - Load firmware
