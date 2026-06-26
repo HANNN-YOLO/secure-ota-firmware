@@ -394,7 +394,7 @@ Each threat includes:
 See:
 
 ```
-Threat_Model.md
+Threat_Model-ENG.md
 ```
 
 for detailed documentation.
