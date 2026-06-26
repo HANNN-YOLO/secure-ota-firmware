@@ -2,6 +2,10 @@
 
 A security-focused OTA (Over-The-Air) firmware update system designed to ensure firmware authenticity, integrity, and version consistency through cryptographic verification and rollback protection.
 
+This repository contains the complete implementation and learning journey of the Secure OTA Firmware Update & Code Signing Infrastructure project from the Infotact Cybersecurity Internship Program.
+
+Instead of implementing only one member's responsibility, this repository consolidates all deliverables from Member 1 through Member 4 to demonstrate a complete end-to-end secure OTA update pipeline.
+
 ---
 
 # Project Overview
@@ -530,9 +534,9 @@ Installation Aborted
 
 | Member   | Responsibility                                                           |
 | -------- | ------------------------------------------------------------------------ |
-| Member 1 | OTA Server                                                               |
-| Member 2 | Client Download & Logging                                                |
-| Member 3 | Cryptography                                                             |
+| Member 1 | PKI & Firmware Signing                                                   |
+| Member 2 | CI/CD Pipeline                                                           |
+| Member 3 | Verification Agent and OTA Server                                        |
 | Member 4 | Versioning, Anti Rollback, Threat Modeling, Documentation & Architecture |
 
 ---
