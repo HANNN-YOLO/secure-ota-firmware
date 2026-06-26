@@ -57,7 +57,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t project1-secureotaserver:M2W3D2122 .
+          docker build -t project1-secureotaserver: 0.15.17.
 
       - name: Login Docker Hub
         uses: docker/login-action@v3
@@ -67,8 +67,7 @@ jobs:
 
       - name: Tag Docker Image
         run: |
-          docker tag project1-secureotaserver:M2W3D2122 ${{ secrets.DOCKERHUB_USERNAME }}/project1-secureotaserver:M2W3D2122
-
+          docker tag project1-secureotaserver: 0.15.17${{ secrets.DOCKERHUB_USERNAME }}/project1-secureotaserver:0.15.17
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/project1-secureotaserver:M2W3D2122
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/project1-secureotaserver:0.15.17
