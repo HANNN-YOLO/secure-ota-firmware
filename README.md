@@ -341,13 +341,13 @@ The client automatically performs:
 # Security Architecture
 
 <p align="center">
-    <img src="images/Architecture.png" width="900">
+    <img src="images/Architecture.drawio.png" width="900">
 </p>
 
 And Another
 
 <p align="center">
-    <img src="images/Architecture-Page-2.drawio.png.png" width="900">
+    <img src="images/Architecture-Page-2.drawio.png" width="900">
 </p>
 
 The Secure OTA Firmware Update system consists of three major components:
