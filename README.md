@@ -414,40 +414,40 @@ for detailed documentation.
 
 # Week 1 (June 08 – June 13)
 
-| Date    | Activity                                 | Commit                                                     |
-| ------- | ---------------------------------------- | ---------------------------------------------------------- |
-| June 08 | Day 1 - Fundamental Cryptography         | docs: add cryptography fundamentals notes                  |
-| June 09 | Day 2 - Hashing & SHA256                 | feat: add sha256 hashing script                            |
-| June 10 | Day 3 - Cryptography Library             | feat: implement ecdsa key generation                       |
-| June 11 | Day 4 - Firmware Simulation              | feat: add dummy firmware and hash generation               |
-| June 12 | Day 5 - Digital Signing                  | feat: implement firmware signing process                   |
-| June 13 | Day 6 & 7 - Verification & Documentation | feat: add signature verification testing and documentation |
+| Date    | Activity                                 | Commit                                                               |
+| ------- | ---------------------------------------- | -------------------------------------------------------------------- |
+| June 08 | Day 1 - Fundamental Cryptography         | docs: add cryptography fundamentals notes                            |
+| June 09 | Day 2 - Hashing & SHA256                 | feat: add sha256 hashing script                                      |
+| June 10 | Day 3 - Cryptography Library             | feat: implement ecdsa key generation                                 |
+| June 11 | Day 4 - Firmware Simulation              | feat: add dummy firmware and hash generation                         |
+| June 12 | Day 5 - Digital Signing                  | feat: implement firmware signing process                             |
+| June 13 | Day 6 & 7 - Verification & Documentation | feat: add signature verification testing and documentation in week 1 |
 
 ---
 
 # Week 2 (June 14 – June 20)
 
-| Date    | Activity                            | Commit                           |
-| ------- | ----------------------------------- | -------------------------------- |
-| June 14 | Day 8 - Git Workflow                | docs: github workflow notes      |
-| June 15 | Day 9 - GitHub Actions              | docs: github actions notes       |
-| June 16 | Day 10 - Build GitHub Actions       | feat: add first github action    |
-| June 17 | Day 11 - GitHub Secrets             | feat: configure github secrets   |
-| June 18 | Day 12 - GitHub Actions Integration | feat: automate firmware signing  |
-| June 19 | Day 13 & 14 - Docker OTA Server     | test: validate automated signing |
+| Date    | Activity                            | Commit                                                        |
+| ------- | ----------------------------------- | ------------------------------------------------------------- |
+| June 14 | Day 8 - Git Workflow                | docs: github workflow notes                                   |
+| June 15 | Day 9 - GitHub Actions              | docs: github actions notes                                    |
+| June 16 | Day 10 - Build GitHub Actions       | feat: add first github action                                 |
+| June 17 | Day 11 - GitHub Secrets             | feat: configure github secrets                                |
+| June 18 | Day 12 - GitHub Actions Integration | feat: automate firmware signing                               |
+| June 19 | Day 13 & 14 - Docker OTA Server     | test: validate automated signing and docummentation in week 2 |
 
 ---
 
 # Week 3 (June 21 – June 27)
 
-| Date    | Activity                                 | Commit                               |
-| ------- | ---------------------------------------- | ------------------------------------ |
-| June 21 | Day 15 - OTA Server                      | docs: ota update notes               |
-| June 22 | Day 16 - Client Downloader               | feat: add firmware download script   |
-| June 23 | Day 17 - Logging System                  | feat: add verification logging       |
-| June 24 | Day 18 - Firmware Hash Verification      | feat: add firmware hash verification |
-| June 25 | Day 19 - Firmware Signature Verification | feat: add signature verification     |
-| June 26 | Day 20 & 21 - Client Testing             | test: verification scenarios         |
+| Date    | Activity                                 | Commit                                                   |
+| ------- | ---------------------------------------- | -------------------------------------------------------- |
+| June 21 | Day 15 - OTA Server                      | docs: ota update notes                                   |
+| June 22 | Day 16 - Client Downloader               | feat: add firmware download script                       |
+| June 23 | Day 17 - Logging System                  | feat: add verification logging                           |
+| June 24 | Day 18 - Firmware Hash Verification      | feat: add firmware hash verification                     |
+| June 25 | Day 19 - Firmware Signature Verification | feat: add signature verification                         |
+| June 26 | Day 20 & 21 - Client Testing             | test: verification scenarios and documentation in week 3 |
 
 ---
 
